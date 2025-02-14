@@ -4,7 +4,9 @@ To reproduce the results in the report, please run the script:
 or the long-form script: `python main.py --model [modelname] --numruns 10`
 
 Parameters: 
-  [`--model`, `cnn1d`, `lstm`, `cnnlstm`, `transformer`, `PatchTST`]
-  [`--numruns`, e.g., `10` for `10` runs]
+
+  `--model`, [`cnn1d`, `lstm`, `cnnlstm`, `transformer`, `PatchTST`]
+  
+  `--numruns`, e.g., `10` for `10` runs
 
 If you want to retrain the model, you can add the parameter: `--retrain`

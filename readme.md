@@ -2,13 +2,13 @@
    
 2. To reproduce the results in the report, please run the script: 
 
-`python main.py -n [modelname] -r 10`
-or the long-form script: `python main.py --model [modelname] --numruns 10`
+   `python main.py -n [modelname] -r 10`, for example `python main.py -n PatchTST -r 10`
+   or the long-form script: `python main.py --model [modelname] --numruns 10`
 
 3. Parameters: 
 
-  `--model`, [`cnn1d`, `lstm`, `cnnlstm`, `transformer`, `PatchTST`]
+     `--modelname`, [`cnn1d`, `lstm`, `cnnlstm`, `transformer`, `PatchTST`]
   
-  `--numruns`, e.g., `10` for `10` runs
+     `--numruns`, e.g., `10` for `10` runs
 
 4. If you want to retrain the model, you can add the parameter: `--retrain`
